@@ -34,17 +34,17 @@ header > img {
   font-size: 30px;
 }
 .cute-cats-photos {
-  display:flex;
-  flex-direction: column;
-  width: 90%;
-  margin: 5%;
+  width: 80%;
   border: solid 1px #d3d3d3;
-  padding-bottom: 5%;
+  padding: 5%;
+  margin:auto;
 }
 .cute-cats-photos img{
-  margin:  calc((100% - 300px) / 2);
-  margin-top: 5%;
+  min-width: 300px;
+  max-width: 300px;
+  margin: calc((100% - 300px) / 2);
   margin-bottom: 0;
+  margin-top: 0;
 }
 footer {
   width: 100%;

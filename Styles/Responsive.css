@@ -1,0 +1,20 @@
+@media (min-width: 800px) {
+  .cute-cats-photos > img {
+    max-width:  700px;
+    min-width: 700px;
+    margin: calc((100% - 700px) / 2);
+    margin-bottom: 0;
+    margin-top: 5%;
+  }
+}
+@media (min-width: 1100px) {
+    .cute-cats-photos > img {
+      margin: 0;
+      max-width:  500px;
+      min-width: 500px;
+    }
+    .cat1 {
+      max-width:  500px;
+      min-width: 500px;
+    }
+}
