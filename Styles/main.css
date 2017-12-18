@@ -1,78 +1,100 @@
 @font-face {
     font-family: SIMPLIFICA;
-    src: url(SIMPLIFICA.ttf);
+    src: url(Fonts/SIMPLIFICA.ttf);
 }
+
 Body {
   color: white;
   width: 100%;
   margin: 0;
-  background-color: #2D2E2C;
+  background: #2d2e2c;
   font-family: SIMPLIFICA;
 }
+
 header {
   width: 100%;
   height: 100px;
-  background-color: #5FA4CE;
+  background: #5fa4ce;
   display: table;
   text-align: center;
 }
+
+.logo {
+  height: 200px;
+  margin-left: calc((100% - 200px) / 2);
+  border-radius: 100px;
+  margin-top: 5%;
+}
+
 header > h1 {
   font-size: 50px;
   display: table-cell;
   vertical-align: middle;
 }
+
 .about-me {
   margin: 5%;
   border: solid 1px #d3d3d3;
   padding: 5%;
 }
+
 .about-me > h2 {
   font-size: 30px;
 }
+
 .about-me > p > a {
   text-decoration: none;
   color: white;
 }
+
 .cute-cats-photos {
   width: 80%;
   border: solid 1px #d3d3d3;
   padding: 5%;
   margin:auto;
 }
-.cute-cats-photos img{
+
+.cute-cats-photos img {
+  width: 300px;
   min-width: 300px;
-  max-width: 300px;
+  max-width: 100%;
   margin: calc((100% - 300px) / 2);
   margin-bottom: 0;
   margin-top: 0;
 }
+
 footer {
   width: 100%;
   margin-bottom: 0;
   height: 100px;
-  background-color: white;
-  color: #5FA4CE;
+  background: white;
+  color: #5fa4ce;
   text-align: center;
 }
+
 footer > h3 {
   font-size: 26px;
   padding-top: 2%;
   margin-bottom: 15px;
 }
+
 footer > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 footer > ul > li {
   font-size: 18px;
   display: inline;
   margin-right: 10%;
 }
+
 footer > ul > li > a {
   text-decoration: none;
-  color: #5FA4CE;
+  color: #5fa4ce;
 }
+
 .instagram {
   margin-right: 0;
 }
