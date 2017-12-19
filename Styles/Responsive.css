@@ -32,13 +32,12 @@
     height: 150px;
   }
 
-  footer > h3 {
-    font-size: 36px;
-    margin-bottom: 25px;
+  h3 {
+    font-size: 46px;
   }
 
-  footer > ul > li {
-    font-size: 25px;
+  .col > ul > li {
+    font-size: 35px;
   }
 
 }
@@ -48,5 +47,5 @@
     .about-me > p {
       font-size: 30px;
       }
-      
+
 }
